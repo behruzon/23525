@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.flex {
+  width: 680px;
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+  margin: 63px auto;
+}
+
+.type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.color {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0071e3;
+}
+
+.laptop_describtion {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.laptop_price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  border-radius: 10px;
+  width: 155px;
+  height: 42px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 300ms;
+}
+
+.btn-1:hover {
+  background: #0071e3;
+  color: #ffffff !important;
+}
+
+.btn-2:hover {
+  background: #0071e3;
+  color: #ffffff !important;
+}
+
+.btn-2 {
+  width: 155px;
+  height: 42px;
+
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #797979;
+  transition: 300ms;
+}
+
+.btn_color {
+  display: flex;
+  width: 321px;
+  height: 42px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.btn-common {
+  height: 57px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 17px 20px;
+  margin-bottom: 7px;
+  border: 2px solid #cfe7ff;
+  align-items: center;
+  transition: 200ms;
+}
+
+.btn-common:hover {
+  border: 2px solid #007fff !important;
+}
+
+.btn-common1 {
+  border: 2px solid #007fff !important;
+}
+
+.right {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 2px;
+}
+
+.btn_type {
+  width: 321px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue_back {
+  background: #0071e3;
+}
+
+.white_back {
+  background: #cfe7ff;
+}
+
+.head {
+  background-color: black;
+  height: 45px;
+  max-width: 100%;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 247px;
+}
+
+
+
+
+
+.switch-btn {
+    display: inline-block;
+    width: 72px; /* ширина */
+    height: 38px; /* высота */
+    border-radius: 19px; /* радиус скругления */
+    background: #bfbfbf; /* цвет фона */
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+    margin-left: 1100px;
+    margin-bottom: 50px;
+    
+  }
+  .switch-btn:after {
+    content: "";
+    height: 32px; /* высота кнопки */
+    width: 32px; /* ширина кнопки */
+    border-radius: 17px;
+    background: #fff; /* цвет кнопки */
+    top: 3px; /* положение кнопки по вертикали относительно основы */
+    left: 3px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+  .switch-on {
+    background: blue;
+  }
+  .switch-on:after {
+    left: 37px;
+  }
